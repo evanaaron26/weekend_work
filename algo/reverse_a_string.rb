@@ -3,7 +3,14 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
+  word_index = string.length - 1
+  reversed = ""
 
+  while word_index >= 0 do
+    reversed += string[word_index]
+    word_index -= 1
+  end
+  return reversed
 end
 
 # Driver code - don't touch anything below this line.
