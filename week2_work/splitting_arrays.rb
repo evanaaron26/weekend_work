@@ -4,8 +4,7 @@
 
 
 def split_array(array, array_size)
-    array
-
+    array.split(array_size)
 
 end
 
